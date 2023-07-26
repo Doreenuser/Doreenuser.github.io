@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.chat-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.chat-log {
+  background-color: #f0f0f0;
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+/* Add the following CSS to style the bot's messages */
+.chat-message.bot {
+  background-color: #c5e1ff; /* Blue background color */
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* Add the following CSS to style the user's messages */
+.chat-message.user {
+  background-color: #e6e6e6; /* Light gray background color */
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}

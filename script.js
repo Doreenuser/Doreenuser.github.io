@@ -8,6 +8,7 @@ window.onload = function() {
 var about = document.querySelector("#navAbout");
 var services = document.querySelector("#navServices");
 var contact = document.querySelector("#navContact");
+var chat = document.querySelector("#navContact");
 
 about.onclick = function() {
   document.querySelector("#aboutRow").scrollIntoView();
