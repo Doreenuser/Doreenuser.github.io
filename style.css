@@ -80,8 +80,8 @@ hr {
 }
 
 .shadow, .shadowSection {
-  background: rgba(192, 178, 178, 0.45);
-  min-height: 55vh;
+  background: rgba(26, 26, 26, 0.80);
+  min-height: 25vh;
   width: 100%;
 }
 
